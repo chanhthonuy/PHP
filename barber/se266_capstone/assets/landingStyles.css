@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 28, 2017, 11:04:45 AM
+    Author     : oversurge88
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html, body {
+    
+    margin: 0;
+    padding: 0; 
+    height: 100%; 
+    width: 100%;
+}
+
+.intro {
+    height: 100%;
+    width: 100%; 
+    margin: auto;
+    background: url(https://www.barbershop-graz.at/wp-content/uploads/2016/10/Barbershop_034smoke_c_Lupi_Spuma-2.jpg);
+    display: table; 
+    top: 0;
+    background-size: cover; 
+    background-attachment: fixed;
+    
+}
+
+.intro.innner {
+    display: Table-cell; 
+    vertical-align: middle; 
+    width: 100%; 
+    max-width: none;
+}
+
+.content {
+    max-width: 500px; 
+    margin: 0 auto; 
+    text-align: center; 
+    
+}
+
+.content h1 {
+    font-family: 'Raleway', sans-serif;
+   
+    font-size: 500%;
+    text-shadow: 0px 0px 300px black; 
+    
+    
+}
+
+.btn {
+    border: solid red 3px; 
+    border-radius: 9px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 135%; 
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    max-width: 10em;
+    align-content: center;
+    width: 10em; 
+    
+}
+
+.btn:hover{
+    color:white;
+    border: solid white 3px; 
+}
+
+
+

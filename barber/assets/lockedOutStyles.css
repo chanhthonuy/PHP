@@ -1,0 +1,19 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 1, 2018, 10:02:05 AM
+    Author     : oversurge88
+*/
+
+body{
+    background-size: cover;
+    background: url(https://www.barbershop-graz.at/wp-content/uploads/2016/10/Barbershop_034smoke_c_Lupi_Spuma-2.jpg);
+    margin: 0;
+    padding: 0; 
+    height: 100%; 
+    width: 100%;
+    
+}

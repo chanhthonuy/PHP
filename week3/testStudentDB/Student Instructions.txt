@@ -1,0 +1,14 @@
+Each student has a MySQL database and login on ict.neit.edu.
+Login to PHP MyAdmin: http://ict.neit.edu/phpmyadmin/index.php
+User name: se266_[firstname]
+Password: studentidwithoutleadingzeroes
+Database: se266_[firstname]
+
+
+Note that MySQL runs on port 5500 on ict.neit.edu so your connection string on the server will be different from your local machine. Run the SQL script in the attached zip file on your local machine so the username, password and database are the same locally and remotely.
+
+You should use dbconnect.php from the zip file for all your PHP applications that use the database going forward.
+
+Test your credentials first by going to: http://ict.neit.edu/evanrense/testdb/
+
+Then, change db, username and pwd in dbconnect.php and web_user.sql. Run the SQL in PHP MyAdmin locally and then test index.php locally and remotely.

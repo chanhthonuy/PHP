@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body{
+
+    padding:50px;
+    background: url(https://www.barbershop-graz.at/wp-content/uploads/2016/10/Barbershop_034smoke_c_Lupi_Spuma-2.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #e7e7e7;
+    background-attachment: fixed;
+    height: 1000px;
+}
+.login {
+
+    vertical-align: middle;
+    position: relative;
+    top: 60%;
+    left: 50%;
+    margin: -184px 0px 0px -155px;
+    background: rgba(0,0,0,0.5);
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 0px rgba(0,0,0,0.3),inset 0px 1px 0px rgba(255,255,255,0.07)
+}
+
+h1{
+    color:white;
+}
+input{
+    width:250px;
+    height:30px;
+}
+input[type="submit"]{
+    background: red;
+    border: 0;
+    width: 250px;
+    height: 40px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.4s linear;
+}
